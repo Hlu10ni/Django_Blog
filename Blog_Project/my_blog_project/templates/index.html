@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}?v=2"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Blog</h1>
+
+        <div class="blog-post">
+            <h2>How to Learn Django</h2>
+            <p class="date">Published on March 30, 2025</p>
+            <p>Django is a high-level Python framework that helps developers build web applications quickly...</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>The Importance of Web Development</h2>
+            <p class="date">Published on March 25, 2025</p>
+            <p>Web development is an essential skill in today’s digital world. It allows businesses to build online presence...</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Understanding CSS Flexbox</h2>
+            <p class="date">Published on March 20, 2025</p>
+            <p>Flexbox is a CSS layout model that makes it easier to align elements and distribute space within a container...</p>
+        </div>
+    </div>
+
+</body>
+</html>
